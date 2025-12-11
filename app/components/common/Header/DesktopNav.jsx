@@ -62,7 +62,7 @@ const DesktopNav = ({ scrolled }) => {
             className="relative block bg-gradient-to-r from-secondary to-primary hover:from-secondary-dark hover:to-primary-dark text-white px-6 py-2.5 rounded-full font-medium transition-all duration-300 shadow-md hover:shadow-lg border border-white/10"
           >
             <span className="flex items-center">
-              <span>Login</span>
+              <span>Get Started</span>
               <motion.svg 
                 className="w-4 h-4 ml-2" 
                 viewBox="0 0 24 24" 

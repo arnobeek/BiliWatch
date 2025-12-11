@@ -46,12 +46,12 @@ export default function VideoBackground() {
       >
         <source 
           media="(min-width: 768px)" 
-          src="https://res.cloudinary.com/df3lhzzy7/video/upload/v1743840639/HeroSection-vid_apbf23.mp4" 
+          src="https://res.cloudinary.com/dv093jd0o/video/upload/v1765447563/Gen-4_Turbo_Generate_for_me_a_realistic_video_of_a_baby_with_jaundice_2432672199_uubd33.mp4" 
           type="video/mp4" 
         />
         <source 
           media="(max-width: 767px)" 
-          src="https://res.cloudinary.com/df3lhzzy7/video/upload/q_60,w_640/v1743840639/HeroSection-vid_apbf23.mp4" 
+          src="https://res.cloudinary.com/dv093jd0o/video/upload/v1765447563/Gen-4_Turbo_Generate_for_me_a_realistic_video_of_a_baby_with_jaundice_2432672199_uubd33.mp4" 
           type="video/mp4" 
         />
         Your browser does not support the video tag.
