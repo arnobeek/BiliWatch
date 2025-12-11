@@ -44,15 +44,15 @@ export default function TeamMembersSection() {
     {
       name: "Bill Edwin Ogwal",
       role: "Software Engineer",
-      description: "Team hardware designer and engineer.",
-      expertise: ["Hardware Design", "Prototyping", "Technical Documentation"],
+      description: "Team software designer and engineer.",
+      expertise: ["Software Design", "Software development", "Technical Documentation"],
       color: "from-purple-500 to-indigo-500"
     },
     {
       name: "Arnold Beeka",
       role: "Software Engineer",
-      description: "Team hardware designer and engineer.",
-      expertise: ["Hardware Design", "Prototyping", "Technical Documentation"],
+      description: "Team software designer and engineer.",
+      expertise: ["Software Design", "Software development", "Technical Documentation"],
       color: "from-purple-500 to-indigo-500"
     },
     {
