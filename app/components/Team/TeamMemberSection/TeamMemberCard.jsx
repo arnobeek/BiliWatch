@@ -9,19 +9,25 @@ export default function TeamMemberCard({ member, index }) {
     if (index === 0) return <Star className="w-8 h-8" />;
     if (index === 1) return <Briefcase className="w-8 h-8" />;
     if (index === 2) return <User className="w-8 h-8" />;
-    if (index === 3) return <GraduationCap className="w-8 h-8" />;
+    if (index === 3) return <User className="w-8 h-8" />;
+    if (index === 4) return <User className="w-8 h-8" />;
+    if (index === 5) return <User className="w-8 h-8" />;
+    if (index === 6) return <User className="w-8 h-8" />;
     return null;
   };
 
   return (
     <motion.div 
       variants={itemVariants} 
-      className="relative rounded-xl overflow-hidden group"
+      className="relative group h-full"
+      whileHover={{ y: -8 }}
+      transition={{ duration: 0.3 }}
     >
-      <div className="absolute inset-0 bg-gradient-to-br opacity-30 group-hover:opacity-40 transition-opacity duration-300"></div>
-      <div className={`absolute top-0 left-0 h-2 w-full bg-gradient-to-r ${member.color}`}></div>
-      
-      <div className="bg-white rounded-xl shadow-md group-hover:shadow-xl transition-all duration-300 p-8 border border-gray-100">
+      <div className="relative rounded-xl overflow-hidden h-full shadow-md group-hover:shadow-2xl transition-all duration-300 bg-white border border-gray-100">
+        <div className="absolute inset-0 bg-gradient-to-br opacity-30 group-hover:opacity-40 transition-opacity duration-300"></div>
+        <div className={`absolute top-0 left-0 h-2 w-full bg-gradient-to-r ${member.color}`}></div>
+        
+        <div className="relative p-8 h-full flex flex-col">
         <div className="mb-6 flex justify-center">
           <div className={`w-20 h-20 rounded-full flex items-center justify-center bg-gradient-to-br ${member.color} text-white`}>
             {renderIcon()}
@@ -52,6 +58,7 @@ export default function TeamMemberCard({ member, index }) {
             View Profile
             <ExternalLink className="w-4 h-4" />
           </button>
+        </div>
         </div>
       </div>
     </motion.div>

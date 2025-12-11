@@ -14,7 +14,7 @@ export default function TeamMembersSection() {
       color: "from-blue-500 to-cyan-400"
     },
     {
-      name: "Dr. Opio Jimmy",
+      name: "Dr. Jimmy Opio",
       role: "Medical Intern",
       description: "Medical personnel",
       expertise: ["Medical Consultation", "Clinical Testing", "Healthcare Integration"],
@@ -23,17 +23,45 @@ export default function TeamMembersSection() {
     {
       name: "Lemi Robin Loprimo",
       role: "Team Lead",
-      description: "A Biomedical Engineering student at Mbarara University of Science and Technology.",
+      description: "Biomedical Engineer",
       expertise: ["Project Management", "Biomedical Engineering", "Product Development"],
       color: "from-primary to-secondary"
     },
     {
-      name: "Wamono Benjamin",
+      name: "Benjamin Wamono",
       role: "Hardware Engineer",
-      description: "He is the team hardware designer and engineer.",
+      description: "Team hardware designer and engineer.",
       expertise: ["Hardware Design", "Prototyping", "Technical Documentation"],
       color: "from-purple-500 to-indigo-500"
-    }
+    },
+    {
+      name: "Hillary Onyango",
+      role: "Hardware Engineer",
+      description: "Team hardware designer and engineer.",
+      expertise: ["Hardware Design", "Prototyping", "Technical Documentation"],
+      color: "from-purple-500 to-indigo-500"
+    },
+    {
+      name: "Bill Edwin Ogwal",
+      role: "Software Engineer",
+      description: "Team hardware designer and engineer.",
+      expertise: ["Hardware Design", "Prototyping", "Technical Documentation"],
+      color: "from-purple-500 to-indigo-500"
+    },
+    {
+      name: "Arnold Beeka",
+      role: "Software Engineer",
+      description: "Team hardware designer and engineer.",
+      expertise: ["Hardware Design", "Prototyping", "Technical Documentation"],
+      color: "from-purple-500 to-indigo-500"
+    },
+    {
+      name: "Anne Kirabo",
+      role: "Hardware Engineer",
+      description: "Team hardware designer and engineer.",
+      expertise: ["Hardware Design", "Prototyping", "Technical Documentation"],
+      color: "from-purple-500 to-indigo-500"
+    },
   ];
 
   return (

@@ -21,17 +21,6 @@ export default function HeroLeftContent() {
       <p className="text-lg md:text-xl max-w-2xl text-gray-700 mb-8">
         Meet the passionate innovators behind BiliWatch - a dedicated team working to improve neonatal healthcare in Uganda and beyond.
       </p>
-      
-      <div className="flex flex-wrap gap-4">
-        <button className="px-8 py-3 bg-primary text-white rounded-full hover:bg-primary-dark transition-colors duration-300 shadow-md flex items-center">
-          Meet the Team
-          <ChevronRight className="ml-2 w-5 h-5" />
-        </button>
-        
-        <button className="px-8 py-3 bg-white bg-opacity-80 backdrop-blur-sm text-secondary rounded-full hover:bg-opacity-100 transition-all duration-300 shadow-md border border-gray-100">
-          Our Mission
-        </button>
-      </div>
     </motion.div>
   );
 }

@@ -5,7 +5,7 @@ import { itemVariants, containerVariants } from './motionVariants';
 
 export default function HeroStats() {
   const stats = [
-    { value: '12+', label: 'Team Members', icon: <Users className="w-5 h-5" /> },
+    { value: '7', label: 'Team Members', icon: <Users className="w-5 h-5" /> },
     { value: '5+', label: 'Years Experience', icon: <Award className="w-5 h-5" /> },
     { value: '1000+', label: 'Babies Helped', icon: <Heart className="w-5 h-5" /> },
     { value: '15+', label: 'Partner Hospitals', icon: <Hospital className="w-5 h-5" /> }
