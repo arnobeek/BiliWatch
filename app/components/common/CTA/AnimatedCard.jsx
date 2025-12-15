@@ -117,11 +117,11 @@ export default function AnimatedCard({ isInView }) {
         </motion.p>
         
         {/* CTA buttons */}
-        <motion.div 
+        {/* <motion.div 
           variants={itemVariants}
           className="flex flex-col sm:flex-row gap-4 justify-center items-center"
         >
-          {/* Contact Us Button */}
+          
           <motion.div 
             variants={buttonVariants}
             whileHover="hover"
@@ -149,7 +149,7 @@ export default function AnimatedCard({ isInView }) {
             </Link>
           </motion.div>
           
-          {/* Meet Our Team Button */}
+          
           <motion.div 
             variants={buttonVariants}
             whileHover="hover"
@@ -163,7 +163,7 @@ export default function AnimatedCard({ isInView }) {
               <span className="font-medium text-gray-800">Meet Our Team</span>
             </Link>
           </motion.div>
-        </motion.div>
+        </motion.div> */}
       </div>
     </motion.div>
   )
