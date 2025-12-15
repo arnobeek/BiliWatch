@@ -49,7 +49,7 @@ const MobileMenu = ({ isMenuOpen, setIsMenuOpen }) => {
                 aria-label="BiliWatch Home"
               >
                 <div className="w-8 h-8 rounded-full overflow-hidden">
-                  <Image 
+                  <img 
                     src="https://res.cloudinary.com/df3lhzzy7/image/upload/BiliLogo_black_mfodyo.png" 
                     alt="BiliWatch Logo" 
                     width={32} 

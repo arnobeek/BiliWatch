@@ -28,7 +28,7 @@ export default function ContactInfoCard() {
             <div>
               <p className="font-medium text-gray-700">Call Us:</p>
               <a to="tel:+256123456789" className="text-secondary hover:text-primary transition-colors text-lg">
-                +256 123 456 789
+                +256 780 736 117
               </a>
             </div>
           </div>

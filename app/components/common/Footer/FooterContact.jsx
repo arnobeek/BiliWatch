@@ -17,7 +17,7 @@ export default function FooterContact() {
         </li>
         <li className="flex items-center">
           <FaPhone className="text-secondary mr-3" />
-          <span className="text-sm text-gray-300">+256 123 456 789</span>
+          <span className="text-sm text-gray-300">+256 780 736 117</span>
         </li>
       </ul>
     </div>
